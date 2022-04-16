@@ -1,0 +1,22 @@
+{
+  "name": "Green lightsaber",
+  "description": "Luke Skywalker's green lightsaber, also known as Luke Skywalker's lightsaber or Luke Skywalker's second lightsaber.",
+  "attributes": [
+    {
+      "trait_type": "Blade color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Model",
+      "value": "Lightsaber"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Single-bladed"
+    },
+    {
+      "trait_type": "Hilt material",
+      "value": "Alloy metals and salvaged materials"
+    }
+  ]
+}

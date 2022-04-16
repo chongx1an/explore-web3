@@ -1,12 +1,10 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div v-if="isWalletInstalled">
+    <Home></Home>
+  </div>
+  <div v-else>
+    <Install></Install>
+  </div>
 </template>
 
 <style>
@@ -19,3 +17,20 @@ import HelloWorld from './components/HelloWorld.vue'
   margin-top: 60px;
 }
 </style>
+
+<script>
+import Home from "./components/Home.vue";
+import Install from "./components/Install.vue";
+
+export default {
+  data() {
+    return {
+      isWalletInstalled: false,
+    };
+  },
+  created() {
+    this.isWalletInstalled = window.ethereum ? true : false;
+  },
+  components: { Home, Install }
+}
+</script>

@@ -1,0 +1,22 @@
+{
+  "name": "Sith lightsaber",
+  "description": "Sith lightsabers, also known as Sith sabers, were lightsabers wielded by members of the Sith.",
+  "attributes": [
+    {
+      "trait_type": "Blade color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Model",
+      "value": "Lightsaber"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Single-bladed"
+    },
+    {
+      "trait_type": "Hilt material",
+      "value": "Various"
+    }
+  ]
+}

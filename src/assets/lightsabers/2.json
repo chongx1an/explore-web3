@@ -1,0 +1,22 @@
+{
+  "name": "Blue lightsaber",
+  "description": "The Skywalker lightsaber, also known at various times as Anakin's, Luke's, and Rey's lightsaber.",
+  "attributes": [
+    {
+      "trait_type": "Blade color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Model",
+      "value": "Handcrafted"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Single-bladed"
+    },
+    {
+      "trait_type": "Hilt material",
+      "value": "Alloy metal and carbon composites"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Darksaber",
+  "description": "The Darksaber was an ancient black-bladed lightsaber.",
+  "attributes": [
+    {
+      "trait_type": "Blade color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Model",
+      "value": "Handcrafted"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Single-bladed"
+    },
+    {
+      "trait_type": "Hilt material",
+      "value": "Beskar"
+    }
+  ]
+}
